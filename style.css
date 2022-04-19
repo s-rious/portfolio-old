@@ -1,0 +1,100 @@
+
+html {
+    scroll-behavior: smooth;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Azeret Mono', monospace;
+}
+body {
+    background-color: rgb(88, 88, 88);
+}
+.navbar {
+    color: white;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+.buttons{
+    float: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: white;
+    font-size: 1.5vw;
+    transition: 0.3s;
+}
+.buttons-hyper{
+    color: white;
+    font-size: 2vw;
+    transition: 0.3s;
+    display: flex;
+    justify-content: center;
+    margin: 20px auto 20px auto;
+    width: 350px;
+    background-color: rgb(49, 49, 49);
+}
+#logo {
+    max-height: 100px;
+    max-width: 100px;
+    width: 100px;
+    height: 100px;
+    padding: 0px;
+}
+#flipped {
+    float: right;
+}
+footer {
+    text-align: center;
+    color: white;
+}
+#foot {
+    color:black;
+}
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+h2 {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+#scrolldown {
+    color: white;
+    text-align: center;
+    transition: 0.3s;
+}
+#scrolldown:hover {
+    background-color: rgb(114, 114, 114);
+    color: rgb(65, 65, 65);
+}
+a:visited, a:active, a:link {
+    text-decoration: none;
+}
+a.cover-link {
+    position: absolute;
+    top: 675px;
+    bottom: 78px;
+    left: 0;
+    right: 0;
+}
+footer {
+    margin-top: 310px;
+    border-top: 1px solid rgb(255, 255, 255);
+    padding: 18px 0px 18px 0px;
+}
+a:visited, a:active, a:link {
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    color: rgb(65, 65, 65);
+    opacity: 1;
+}
+#information {
+    margin: auto;
+    width: 60%;
+    border-radius: 10px;
+}
