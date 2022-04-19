@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Quiz</title>
+</head>
+<body>
+    <script src="script.js"></script>
+    <div id="quiz">
+        <h1 style="text-align: center;">Quiz App</h1>
+        <form name="submitform">
+            <h3>Q1: What does HTML stand for?</h3>
+            <input type="radio" id="q1_a" name="q1" value="true" required>
+            <label for="q1_a">Hypertext Markup Language</label><br>
+            <input type="radio" id="q1_b" name="q1" value="false">
+            <label for="q1_b">Cascading Style Sheet</label><br>
+            <input type="radio" id="q1_c" name="q1" value="false">
+            <label for="q1_c">JavaScript</label><br>
+            <h3>Q2: What does the strong tag do in an HTML document?</h3>
+            <input type="radio" id="q2_a" name="q2" value="false" required>
+            <label for="q2_a">Makes the text colored</label><br>
+            <input type="radio" id="q2_b" name="q2" value="false">
+            <label for="q2_b">Makes the text underlined</label><br>
+            <input type="radio" id="q2_c" name="q2" value="true">
+            <label for="q2_c">Makes the text bold</label><br>
+            <h3>Q3: Which do internal, external, and email hyperlinks begin with?</h3>
+            <input type="radio" id="q3_a" name="q3" value="false" required>
+            <label for="q3_a">Hyperlink tag</label><br>
+            <input type="radio" id="q3_b" name="q3" value="true">
+            <label for="q3_b">Anchor tag</label><br>
+            <input type="radio" id="q3_c" name="q3" value="false">
+            <label for="q3_c">Begin tag</label><br>
+            <h3>Q4: What does the mark tag do to text in an HTML document?</h3>
+            <input type="radio" id="q4_a" name="q4" value="false" required>
+            <label for="q4_a">Deletes</label><br>
+            <input type="radio" id="q4_b" name="q4" value="false">
+            <label for="q4_b">Underlines</label><br>
+            <input type="radio" id="q4_c" name="q4" value="true">
+            <label for="q4_c">Highlights</label><br>
+            <h3>Q5: Which is the paragraph tag?</h3>
+            <input type="radio" id="q5_a" name="q5" value="false" required>
+            <label for="q5_a">&lt;para&gt;</label><br>
+            <input type="radio" id="q5_b" name="q5" value="true">
+            <label for="q5_b">&lt;p&gt;</label><br>
+            <input type="radio" id="q5_c" name="q5" value="false">
+            <label for="q5_c">&lt;paragraph&gt;</label><br><br>
+            <input type="button" onclick="submitbutton()" id="submit_button" value="Submit">
+        </form>
+    </div>
+</body>
+</html>

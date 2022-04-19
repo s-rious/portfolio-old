@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Canvas Art</h1>
+    <canvas id="myCanvas" width="500" height="250" style="border: 1px solid black;"></canvas>
+    <h1>SVG Art</h1>
+    <svg id="myCanvas2" width="500" height="250" style="border: 1px solid black;">
+        <!--Body-->
+        <rect x="150" y="50" rx="10" ry="30" width="150" height="150" style="fill: yellow ;stroke:black;stroke-width:2;" />
+        <circle cx="180" cy="70" r="5" stroke-width="2" fill="rgb(174, 173, 13)" stroke="rgb(255, 245, 108)" />
+        <circle cx="280" cy="70" r="5" stroke-width="2" fill="rgb(174, 173, 13)" stroke="rgb(255, 245, 108)" />
+        <circle cx="177" cy="80" r="2" stroke-width="2" fill="rgb(174, 173, 13)" stroke="rgb(255, 245, 108)" />
+        <circle cx="170" cy="180" r="2.5" stroke-width="2" fill="rgb(174, 173, 13)" stroke="rgb(255, 245, 108)" />
+        <circle cx="180" cy="185" r="3.5" stroke-width="2" fill="rgb(174, 173, 13)" stroke="rgb(255, 245, 108)" />
+        <circle cx="270" cy="187" r="2.5" stroke-width="2" fill="rgb(174, 173, 13)" stroke="rgb(255, 245, 108)" />
+        <circle cx="275" cy="178" r="3.5" stroke-width="2" fill="rgb(174, 173, 13)" stroke="rgb(255, 245, 108)" />
+
+        <!--Mouth-->
+        <rect x="208" y="143" width="15" height="15" style="fill: white;stroke-width:0.5;stroke:black;" />
+        <rect x="227" y="143" width="15" height="15" style="fill: white;stroke-width:0.5;stroke:black;" />
+        <path d="M 195 135 q 30 20 60 0" stroke="black" stroke-width="4" fill="none" />
+        <circle cx="225" cy="120" r="5" fill="yellow" stroke-width="1" stroke="black" opacity="0.75" />
+        <circle cx="261" cy="132" r="7" stroke-width="0.5" fill="pink" stroke="red" opacity="0.75" />
+        <circle cx="189" cy="132" r="7" stroke-width="0.5" fill="pink" stroke="red" opacity="0.75" />
+        <circle cx="189" cy="135" r="0.5" stroke-width="0.5" fill="red" stroke="red" opacity="1" />
+        <circle cx="186" cy="132" r="0.5" stroke-width="0.5" fill="red" stroke="red" opacity="1" />
+        <circle cx="192" cy="132" r="0.5" stroke-width="0.5" fill="red" stroke="red" opacity="1" />
+        <circle cx="261" cy="135" r="0.5" stroke-width="0.5" fill="red" stroke="red" opacity="1" />
+        <circle cx="258" cy="132" r="0.5" stroke-width="0.5" fill="red" stroke="red" opacity="1" />
+        <circle cx="264" cy="132" r="0.5" stroke-width="0.5" fill="red" stroke="red" opacity="1" />
+
+        <!--Eyelashes-->
+        <rect x="243" y="70" width="3" height="15" style="fill: black;" />
+        <rect x="203" y="70" width="3" height="15" style="fill: black;" />
+        <rect x="228" y="35" width="3" height="15" style="fill: black;" transform="rotate(10 35 190)"/>
+        <rect x="188" y="42" width="3" height="15" style="fill: black;" transform="rotate(10 35 190)"/>
+        <rect x="235" y="106" width="3" height="15" style="fill: black;" transform="rotate(-10 35 95)"/>
+        <rect x="195" y="99" width="3" height="15" style="fill: black;" transform="rotate(-10 35 95)"/>
+
+        <!--Eyes-->
+        <circle cx="205" cy="100" r="20" stroke-width="1" fill="white" stroke="black" />
+        <circle cx="245" cy="100" r="20" stroke-width="1" fill="white" stroke="black" />
+        <circle cx="210" cy="105" r="10" stroke-width="1" fill="cyan" stroke="black" />
+        <circle cx="240" cy="105" r="10" stroke-width="1" fill="cyan" stroke="black" />
+        <circle cx="210" cy="105" r="5" fill="black" />
+        <circle cx="240" cy="105" r="5" fill="black" />
+        <circle cx="207" cy="102" r="2.5" fill="white" />
+        <circle cx="243" cy="102" r="2.5" fill="white" />
+        <circle cx="213" cy="108" r="1.25" fill="white" />
+        <circle cx="237" cy="108" r="1.25" fill="white" />
+
+        <!--Pants-->
+        <rect x="152" y="190" width="146" height="15" style="fill: white; stroke: black;stroke-width:0.5" />
+        <rect x="152" y="205" width="146" height="30" style="fill: rgb(175, 119, 75); stroke: black;stroke-width:0.5" />
+        <rect x="152" y="205" width="146" height="1" style="fill: black; stroke: black;stroke-width:0.5" />
+        <rect x="162" y="212" width="20" height="3" style="fill: black; stroke: black;stroke-width:0.5" />
+        <rect x="266" y="212" width="20" height="3" style="fill: black; stroke: black;stroke-width:0.5" />
+        <rect x="233" y="212" width="20" height="3" style="fill: black; stroke: black;stroke-width:0.5" />
+        <rect x="197" y="212" width="20" height="3" style="fill: black; stroke: black;stroke-width:0.5" />
+
+        <!--Tie-->
+        <polygon points="212,202 222,190 202,190" style="fill:white;stroke:black;stroke-width:1" />
+        <polygon points="238,202 247,190 228,190" style="fill:white;stroke:black;stroke-width:1" />
+        <polygon points="225,198 232,212 225,219 218,212" style="fill:red;stroke:black;stroke-width:0.5" />
+        <circle cx="225" cy="194.5" r="5" fill="red" stroke-width="1" stroke="black" />
+    </svg>
+    <script>
+        window.onload = function () {
+            var canvas = document.getElementById("myCanvas");
+            var ctx = canvas.getContext("2d");
+
+            //Door Top Arc
+            ctx.beginPath();
+            ctx.lineWidth = 10;
+            ctx.strokeStyle = "black";
+            ctx.arc(300, 150, 120, 1.1 * Math.PI, 1.9 * Math.PI, false);
+            ctx.stroke();
+
+            //Door left side
+            ctx.beginPath();
+            ctx.moveTo(185, 200);
+            ctx.lineTo(186, 112);
+            ctx.stroke();
+
+            //Door right side
+            ctx.beginPath();
+            ctx.moveTo(414, 200);
+            ctx.lineTo(414, 112);
+            ctx.stroke();
+
+            //Door bottom
+            ctx.beginPath();
+            ctx.moveTo(180, 200);
+            ctx.lineTo(419, 200);
+            ctx.stroke();
+
+            //Door handle
+            ctx.beginPath();
+            ctx.arc(370, 150, 2, 0, 2 * Math.PI);
+            ctx.stroke();
+            ctx.beginPath();
+
+            //Window arc
+            ctx.lineWidth = 3;
+            ctx.strokeStyle = "black";
+            ctx.arc(300, 110, 40, 1 * Math.PI, 2 * Math.PI, false);
+            ctx.stroke();
+
+            //Window bottom
+            ctx.beginPath();
+            ctx.moveTo(259, 110);
+            ctx.lineTo(341, 110);
+            ctx.stroke();
+            ctx.beginPath();
+
+            //Window line downwards
+            ctx.moveTo(300, 70);
+            ctx.lineTo(300, 110);
+            ctx.stroke();
+
+            //Window line across
+            ctx.beginPath();
+            ctx.moveTo(265, 92);
+            ctx.lineTo(335, 92);
+            ctx.stroke();
+        }
+    </script>
+</body>
+</html>

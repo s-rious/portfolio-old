@@ -1,0 +1,76 @@
+html {
+    background-color: rgb(223, 223, 223);
+    color: black;
+    width: 80%;
+    margin: auto;
+    
+}
+div {
+    float: center;
+    text-align: center;
+    list-style-position: inside;
+    margin: 16px;
+    padding: 16px;
+}
+
+.container {
+    margin: 0px;
+    padding: 4px;
+    border-width: 5px;
+    border: 10px solid rgb(156, 156, 156);
+}
+.content {
+    background-color: white;
+    margin: 16px;
+    padding: 16px;
+    line-height: 25px;
+    letter-spacing: 1.5px;
+    word-spacing: 0.5px;
+    font-size: 16px;
+    text-indent: 0px;
+}
+h1 {
+    text-shadow: 3px 3px rgb(201, 201, 201);
+    letter-spacing: 3px;
+    font-size: 2rem;
+    text-transform: capitalize;
+}
+h2 {
+    text-shadow: 2px 2px rgb(201, 201, 201);
+    letter-spacing: 3px;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+footer {
+    background: rgb(156, 156, 156);
+    width: 100%;
+    padding: 2px;
+    text-align: center;
+    padding-top: 1.5px;
+}
+img {
+    max-width: 400px;
+    width: 400px;
+}
+#hyperjump {
+    color: black;
+    background-color: rgb(255, 255, 255);
+}
+.nav {
+    margin: 10px 3px 10px 3px;
+    background-color: rgb(240, 240, 240);
+    padding: 3px;
+    font-size: 14px;
+}
+.top {
+    position: fixed;
+    left: 93.5%;
+    top: 89%;
+    background: white;
+    text-align: center;
+    font-size: 16px;
+}
+a {
+    text-decoration: none;
+}

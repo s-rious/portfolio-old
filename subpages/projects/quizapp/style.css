@@ -1,0 +1,14 @@
+html {
+    background-color: wheat;
+}
+body {
+    width: 50%;
+    margin: auto;
+    border: black 2px solid;
+    background-color: lightgray;
+    color: black;
+    padding: 50px;
+}
+#quiz {
+    color: black;
+}
